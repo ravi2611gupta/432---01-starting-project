@@ -7,6 +7,7 @@ import { HighlightDirective } from "src/app/shared/highlight.directive";
   templateUrl: "./details.component.html",
   styleUrls: ["./details.component.css"],
   imports: [HighlightDirective],
+  // providers: [AnalyticsService]
 })
 export class DetailsComponent {
   constructor(private analyticsService: AnalyticsService) {}
